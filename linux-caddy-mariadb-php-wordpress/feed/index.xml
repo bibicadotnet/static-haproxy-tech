@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Linux Caddy Mariadb PHP Wordpress	</title>
+	<atom:link href="https://static.haproxy.tech/linux-caddy-mariadb-php-wordpress/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.haproxy.tech/linux-caddy-mariadb-php-wordpress/</link>
+	<description></description>
+	<lastBuildDate>Thu, 07 Sep 2023 05:12:21 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: haproxy.tech		</title>
+		<link>https://static.haproxy.tech/linux-caddy-mariadb-php-wordpress/#comment-5</link>
+
+		<dc:creator><![CDATA[haproxy.tech]]></dc:creator>
+		<pubDate>Thu, 07 Sep 2023 05:12:21 +0000</pubDate>
+		<guid isPermaLink="false">https://static.haproxy.tech/?p=17#comment-5</guid>
+
+					<description><![CDATA[Thử comment]]></description>
+			<content:encoded><![CDATA[<p>Thử comment</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>
