@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Oracle VM Standard A1 Flex	</title>
-	<atom:link href="https://static.haproxy.tech/oracle-vm-standard-a1-flex/feed/" rel="self" type="application/rss+xml" />
-	<link>https://static.haproxy.tech/oracle-vm-standard-a1-flex/</link>
+	<atom:link href="/oracle-vm-standard-a1-flex/feed/" rel="self" type="application/rss+xml" />
+	<link>/oracle-vm-standard-a1-flex/</link>
 	<description></description>
 	<lastBuildDate>Tue, 04 Jul 2023 18:02:54 +0000</lastBuildDate>
 	<sy:updatePeriod>

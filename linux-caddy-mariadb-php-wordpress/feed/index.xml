@@ -8,10 +8,10 @@
 <channel>
 	<title>
 	Comments on: Linux Caddy Mariadb PHP Wordpress	</title>
-	<atom:link href="https://static.haproxy.tech/linux-caddy-mariadb-php-wordpress/feed/" rel="self" type="application/rss+xml" />
-	<link>https://static.haproxy.tech/linux-caddy-mariadb-php-wordpress/</link>
+	<atom:link href="/linux-caddy-mariadb-php-wordpress/feed/" rel="self" type="application/rss+xml" />
+	<link>/linux-caddy-mariadb-php-wordpress/</link>
 	<description></description>
-	<lastBuildDate>Thu, 07 Sep 2023 05:12:21 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 04 Oct 2023 01:10:21 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		By: haproxy.tech		</title>
-		<link>https://static.haproxy.tech/linux-caddy-mariadb-php-wordpress/#comment-5</link>
+		<link>/linux-caddy-mariadb-php-wordpress/#comment-5</link>
 
 		<dc:creator><![CDATA[haproxy.tech]]></dc:creator>
 		<pubDate>Thu, 07 Sep 2023 05:12:21 +0000</pubDate>
-		<guid isPermaLink="false">https://static.haproxy.tech/?p=17#comment-5</guid>
+		<guid isPermaLink="false">/?p=17#comment-5</guid>
 
 					<description><![CDATA[Thử comment]]></description>
 			<content:encoded><![CDATA[<p>Thử comment</p>

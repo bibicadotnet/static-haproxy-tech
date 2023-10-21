@@ -9,10 +9,10 @@
 
 <channel>
 	<title>Toolbox &#8211; HAPROXY.TECH</title>
-	<atom:link href="https://static.haproxy.tech/category/toolbox/feed/" rel="self" type="application/rss+xml" />
-	<link>https://static.haproxy.tech/</link>
+	<atom:link href="/category/toolbox/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
 	<description></description>
-	<lastBuildDate>Thu, 07 Sep 2023 04:36:44 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 04 Oct 2023 01:10:21 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,92 +20,74 @@
 	1	</sy:updateFrequency>
 	
 	<item>
-		<title>Webinoly Optimized NGINX Web Server</title>
-		<link>https://static.haproxy.tech/webinoly-optimized-nginx-web-server/</link>
-					<comments>https://static.haproxy.tech/webinoly-optimized-nginx-web-server/#respond</comments>
+		<title>Linux Caddy Mariadb PHP Wordpress</title>
+		<link>/linux-caddy-mariadb-php-wordpress/</link>
+					<comments>/linux-caddy-mariadb-php-wordpress/#comments</comments>
 		
 		<dc:creator><![CDATA[haproxy.tech]]></dc:creator>
-		<pubDate>Tue, 27 Jun 2023 09:15:08 +0000</pubDate>
+		<pubDate>Sat, 24 Jun 2023 01:54:42 +0000</pubDate>
 				<category><![CDATA[Toolbox]]></category>
-		<guid isPermaLink="false">https://static.haproxy.tech/?p=81</guid>
+		<guid isPermaLink="false">/?p=17</guid>
 
-					<description><![CDATA[Tạo 1 VPS Oracle VM Standard A1 Flex sử dụng hệ điều hành Ubuntu 22.04 Mở các port và tạo tài khoản root Cập nhập OS và khởi động lại hệ thống sudo apt update &#38;&#38; sudo apt upgrade -y &#38;&#38; sudo reboot Cài đặt Webinoly và cấu hình cho ... <a title="Webinoly Optimized NGINX Web Server" class="read-more" href="https://static.haproxy.tech/webinoly-optimized-nginx-web-server/" aria-label="More on Webinoly Optimized NGINX Web Server">Read more</a>
-<p><a href="https://static.haproxy.tech/webinoly-optimized-nginx-web-server/">Source</a></p>]]></description>
+					<description><![CDATA[Có khá nhiều bộ công cụ giúp bạn tự cài đặt WordPress chỉ bằng 1 dòng lệnh 😀 Webinoly, Centmin Mod, CyberPanel, aaPanel, Slick­Stack, OneinStack, EasyEngine, RunCloud hay WPTangToc của Việt Nam Phần lớn chúng đều được chạy trên Webserver là Nginx hoặc LiteSpeed/ Open LiteSpeed, có điều trên haproxy.tech, ... <a title="Linux Caddy Mariadb PHP Wordpress" class="read-more" href="/linux-caddy-mariadb-php-wordpress/" aria-label="More on Linux Caddy Mariadb PHP Wordpress">Read more</a>
+<p><a href="/linux-caddy-mariadb-php-wordpress/">Source</a></p>]]></description>
 		
-					<wfw:commentRss>https://static.haproxy.tech/webinoly-optimized-nginx-web-server/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
+					<wfw:commentRss>/linux-caddy-mariadb-php-wordpress/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>HSTS cho haproxy.tech</title>
-		<link>https://static.haproxy.tech/hsts-cho-haproxy-tech/</link>
-					<comments>https://static.haproxy.tech/hsts-cho-haproxy-tech/#respond</comments>
+		<link>/hsts-cho-haproxy-tech/</link>
+					<comments>/hsts-cho-haproxy-tech/#respond</comments>
 		
 		<dc:creator><![CDATA[haproxy.tech]]></dc:creator>
 		<pubDate>Tue, 04 Jul 2023 18:54:42 +0000</pubDate>
 				<category><![CDATA[Toolbox]]></category>
-		<guid isPermaLink="false">https://static.haproxy.tech/?p=73</guid>
+		<guid isPermaLink="false">/?p=73</guid>
 
-					<description><![CDATA[HSTS trên các trình duyệt như Chrome nó sẽ tự động cưỡng bức chuyển sang dùng https cho domain của bạn, đỡ phải viết các đoạn code chuyển hướng trên server, nó cũng cải thiện tốc độ load trang ở lần đầu tiên Chú ý là nếu bật HSTS, mọi ... <a title="HSTS cho haproxy.tech" class="read-more" href="https://static.haproxy.tech/hsts-cho-haproxy-tech/" aria-label="More on HSTS cho haproxy.tech">Read more</a>
-<p><a href="https://static.haproxy.tech/hsts-cho-haproxy-tech/">Source</a></p>]]></description>
+					<description><![CDATA[HSTS trên các trình duyệt như Chrome nó sẽ tự động cưỡng bức chuyển sang dùng https cho domain của bạn, đỡ phải viết các đoạn code chuyển hướng trên server, nó cũng cải thiện tốc độ load trang ở lần đầu tiên Chú ý là nếu bật HSTS, mọi ... <a title="HSTS cho haproxy.tech" class="read-more" href="/hsts-cho-haproxy-tech/" aria-label="More on HSTS cho haproxy.tech">Read more</a>
+<p><a href="/hsts-cho-haproxy-tech/">Source</a></p>]]></description>
 		
-					<wfw:commentRss>https://static.haproxy.tech/hsts-cho-haproxy-tech/feed/</wfw:commentRss>
+					<wfw:commentRss>/hsts-cho-haproxy-tech/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Oracle VM Standard A1 Flex</title>
-		<link>https://static.haproxy.tech/oracle-vm-standard-a1-flex/</link>
-					<comments>https://static.haproxy.tech/oracle-vm-standard-a1-flex/#respond</comments>
+		<link>/oracle-vm-standard-a1-flex/</link>
+					<comments>/oracle-vm-standard-a1-flex/#respond</comments>
 		
 		<dc:creator><![CDATA[haproxy.tech]]></dc:creator>
 		<pubDate>Fri, 23 Jun 2023 07:50:55 +0000</pubDate>
 				<category><![CDATA[Toolbox]]></category>
-		<guid isPermaLink="false">https://static.haproxy.tech/?p=13</guid>
+		<guid isPermaLink="false">/?p=13</guid>
 
-					<description><![CDATA[haproxy.tech đang được vận hành trên VPS Always Free của Oracle, Home Region US West (San Jose) Ping về Việt Nam khá tốt, loanh quanh ~200ms Không hẳn là tối ưu cho các truy cập từ Việt Nam 😀 mỗi cái miễn phí nên cũng không đòi hỏi gì thêm ... <a title="Oracle VM Standard A1 Flex" class="read-more" href="https://static.haproxy.tech/oracle-vm-standard-a1-flex/" aria-label="More on Oracle VM Standard A1 Flex">Read more</a>
-<p><a href="https://static.haproxy.tech/oracle-vm-standard-a1-flex/">Source</a></p>]]></description>
+					<description><![CDATA[haproxy.tech đang được vận hành trên VPS Always Free của Oracle, Home Region US West (San Jose) Ping về Việt Nam khá tốt, loanh quanh ~200ms Không hẳn là tối ưu cho các truy cập từ Việt Nam 😀 mỗi cái miễn phí nên cũng không đòi hỏi gì thêm ... <a title="Oracle VM Standard A1 Flex" class="read-more" href="/oracle-vm-standard-a1-flex/" aria-label="More on Oracle VM Standard A1 Flex">Read more</a>
+<p><a href="/oracle-vm-standard-a1-flex/">Source</a></p>]]></description>
 		
-					<wfw:commentRss>https://static.haproxy.tech/oracle-vm-standard-a1-flex/feed/</wfw:commentRss>
+					<wfw:commentRss>/oracle-vm-standard-a1-flex/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Cache Everything by Cloudflare</title>
-		<link>https://static.haproxy.tech/cache-everything-by-cloudflare/</link>
-					<comments>https://static.haproxy.tech/cache-everything-by-cloudflare/#respond</comments>
+		<link>/cache-everything-by-cloudflare/</link>
+					<comments>/cache-everything-by-cloudflare/#respond</comments>
 		
 		<dc:creator><![CDATA[haproxy.tech]]></dc:creator>
 		<pubDate>Sat, 24 Jun 2023 03:11:16 +0000</pubDate>
 				<category><![CDATA[Toolbox]]></category>
-		<guid isPermaLink="false">https://static.haproxy.tech/?p=48</guid>
+		<guid isPermaLink="false">/?p=48</guid>
 
-					<description><![CDATA[Cache Everything từ Cloudflare (Edge Cache HTML) là 1 hình thức cache đơn giản, siêu hiệu quả, giúp tăng tốc và giảm tải cực nhiều cho 1 trang WordPress thông thường Layer 0 (L0): plugin caching thông thường, có thể ví dụ như FlyingPress, WP-Rocket, Swift Performance ….trang web sẽ được chuyển về dạng tĩnh ... <a title="Cache Everything by Cloudflare" class="read-more" href="https://static.haproxy.tech/cache-everything-by-cloudflare/" aria-label="More on Cache Everything by Cloudflare">Read more</a>
-<p><a href="https://static.haproxy.tech/cache-everything-by-cloudflare/">Source</a></p>]]></description>
+					<description><![CDATA[Cache Everything từ Cloudflare (Edge Cache HTML) là 1 hình thức cache đơn giản, siêu hiệu quả, giúp tăng tốc và giảm tải cực nhiều cho 1 trang WordPress thông thường Layer 0 (L0): plugin caching thông thường, có thể ví dụ như FlyingPress, WP-Rocket, Swift Performance ….trang web sẽ được chuyển về dạng tĩnh ... <a title="Cache Everything by Cloudflare" class="read-more" href="/cache-everything-by-cloudflare/" aria-label="More on Cache Everything by Cloudflare">Read more</a>
+<p><a href="/cache-everything-by-cloudflare/">Source</a></p>]]></description>
 		
-					<wfw:commentRss>https://static.haproxy.tech/cache-everything-by-cloudflare/feed/</wfw:commentRss>
+					<wfw:commentRss>/cache-everything-by-cloudflare/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Linux Caddy Mariadb PHP Wordpress</title>
-		<link>https://static.haproxy.tech/linux-caddy-mariadb-php-wordpress/</link>
-					<comments>https://static.haproxy.tech/linux-caddy-mariadb-php-wordpress/#comments</comments>
-		
-		<dc:creator><![CDATA[haproxy.tech]]></dc:creator>
-		<pubDate>Sat, 24 Jun 2023 01:54:42 +0000</pubDate>
-				<category><![CDATA[Toolbox]]></category>
-		<guid isPermaLink="false">https://static.haproxy.tech/?p=17</guid>
-
-					<description><![CDATA[Có khá nhiều bộ công cụ giúp bạn tự cài đặt WordPress chỉ bằng 1 dòng lệnh 😀 Webinoly, Centmin Mod, CyberPanel, aaPanel, Slick­Stack, OneinStack, EasyEngine, RunCloud hay WPTangToc của Việt Nam Phần lớn chúng đều được chạy trên Webserver là Nginx hoặc LiteSpeed/ Open LiteSpeed, có điều trên haproxy.tech, ... <a title="Linux Caddy Mariadb PHP Wordpress" class="read-more" href="https://static.haproxy.tech/linux-caddy-mariadb-php-wordpress/" aria-label="More on Linux Caddy Mariadb PHP Wordpress">Read more</a>
-<p><a href="https://static.haproxy.tech/linux-caddy-mariadb-php-wordpress/">Source</a></p>]]></description>
-		
-					<wfw:commentRss>https://static.haproxy.tech/linux-caddy-mariadb-php-wordpress/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
 		
 		
 			</item>
