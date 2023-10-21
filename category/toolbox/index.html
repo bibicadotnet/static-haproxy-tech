@@ -10,9 +10,8 @@
 <link rel="alternate" type="application/rss+xml" title="HAPROXY.TECH &raquo; Feed" href="/feed/">
 <link rel="alternate" type="application/rss+xml" title="HAPROXY.TECH &raquo; Comments Feed" href="/comments/feed/">
 <link rel="alternate" type="application/rss+xml" title="HAPROXY.TECH &raquo; Toolbox Category Feed" href="/category/toolbox/feed/">
-<style id="classic-theme-styles-inline-css">/*! This file is auto-generated */
-.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
-<link rel="stylesheet" id="load-fa-css" href="/fonts/font-awesome.min.css?ver=6.3.2" media="all">
+<link rel="stylesheet" id="classic-theme-styles-css" href="/wp-includes/css/classic-themes.min.css?ver=6.2.3" media="all">
+<link rel="stylesheet" id="load-fa-css" href="/fonts/font-awesome.min.css?ver=6.2.3" media="all">
 <link rel="stylesheet" id="ssp-search-css" href="/wp-content/plugins/simply-static-pro/assets/ssp-search.css?ver=1.4.5.7" media="all">
 <link rel="stylesheet" id="generate-style-css" href="/wp-content/themes/generatepress/assets/css/main.min.css?ver=3.3.1" media="all">
 <style id="generate-style-inline-css">.resize-featured-image .post-image img {width: 300px;}
@@ -23,7 +22,7 @@ body{background-color:var(--base);color:var(--contrast);}a{color:var(--accent);}
 <link rel="stylesheet" id="generate-blog-images-css" href="/wp-content/plugins/gp-premium/blog/functions/css/featured-images.min.css?ver=2.3.2" media="all">
 <link rel="stylesheet" id="generate-navigation-branding-css" href="/wp-content/plugins/gp-premium/menu-plus/functions/css/navigation-branding-flex.min.css?ver=2.3.2" media="all">
 <style id="generate-navigation-branding-inline-css">@media (max-width: 768px){.site-header, #site-navigation, #sticky-navigation{display:none !important;opacity:0.0;}#mobile-header{display:block !important;width:100% !important;}#mobile-header .main-nav > ul{display:none;}#mobile-header.toggled .main-nav > ul, #mobile-header .menu-toggle, #mobile-header .mobile-bar-items{display:block;}#mobile-header .main-nav{-ms-flex:0 0 100%;flex:0 0 100%;-webkit-box-ordinal-group:5;-ms-flex-order:4;order:4;}.navigation-branding .main-title a, .navigation-branding .main-title a:hover, .navigation-branding .main-title a:visited{color:#ffffff;}}.main-navigation.has-branding .inside-navigation.grid-container, .main-navigation.has-branding.grid-container .inside-navigation:not(.grid-container){padding:0px 30px 0px 30px;}.main-navigation.has-branding:not(.grid-container) .inside-navigation:not(.grid-container) .navigation-branding{margin-left:10px;}.navigation-branding img, .site-logo.mobile-header-logo img{height:60px;width:auto;}.navigation-branding .main-title{line-height:60px;}@media (max-width: 768px){.main-navigation.has-branding.nav-align-center .menu-bar-items, .main-navigation.has-sticky-branding.navigation-stick.nav-align-center .menu-bar-items{margin-left:auto;}.navigation-branding{margin-right:auto;margin-left:10px;}.navigation-branding .main-title, .mobile-header-navigation .site-logo{margin-left:10px;}.main-navigation.has-branding .inside-navigation.grid-container{padding:0px;}}</style>
-<script src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.0" id="jquery-core-js"></script>
+<script src="/wp-includes/js/jquery/jquery.min.js?ver=3.6.4" id="jquery-core-js"></script>
 <link href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII=" rel="icon" type="image/x-icon">
 <meta http-equiv="Accept-CH" content="DPR, Width">			                <meta name="ssp-config-path" content="/wp-content/uploads/simply-static/configs/">
 			
@@ -217,13 +216,7 @@ border:0px solid #FFFF;
 			<div class="inside-navigation grid-container">
 								<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
 					<span class="gp-icon icon-menu-bars"><svg viewbox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z"></path></svg><svg viewbox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z"></path></svg></span><span class="screen-reader-text">Menu</span>				</button>
-						<div id="primary-menu" class="main-nav">
-			<ul class="menu sf-menu">
-				<li class="page_item page-item-2"><a href="/contact/">Contact</a></li>
-<li class="page_item page-item-579"><a href="/cam-on-vi-comment/">Cảm ơn vì comment</a></li>
-			</ul>
-		</div>
-		<div class="menu-bar-items">	<span class="menu-bar-item">
+				<div class="menu-bar-items">	<span class="menu-bar-item">
 		<a href="#" role="button" aria-label="Open search" data-gpmodal-trigger="gp-search"><span class="gp-icon icon-search"><svg viewbox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path fill-rule="evenodd" clip-rule="evenodd" d="M208 48c-88.366 0-160 71.634-160 160s71.634 160 160 160 160-71.634 160-160S296.366 48 208 48zM0 208C0 93.125 93.125 0 208 0s208 93.125 208 208c0 48.741-16.765 93.566-44.843 129.024l133.826 134.018c9.366 9.379 9.355 24.575-.025 33.941-9.379 9.366-24.575 9.355-33.941-.025L337.238 370.987C301.747 399.167 256.839 416 208 416 93.125 416 0 322.875 0 208z"></path></svg><svg viewbox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z"></path></svg></span></a>
 	</span>
 	</div>			</div>
@@ -238,13 +231,7 @@ border:0px solid #FFFF;
 							</a>
 						</p></div>					<button class="menu-toggle" aria-controls="mobile-menu" aria-expanded="false">
 						<span class="gp-icon icon-menu-bars"><svg viewbox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z"></path></svg><svg viewbox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z"></path></svg></span><span class="screen-reader-text">Menu</span>					</button>
-							<div id="primary-menu" class="main-nav">
-			<ul class="menu sf-menu">
-				<li class="page_item page-item-2"><a href="/contact/">Contact</a></li>
-<li class="page_item page-item-579"><a href="/cam-on-vi-comment/">Cảm ơn vì comment</a></li>
-			</ul>
-		</div>
-		<div class="menu-bar-items">	<span class="menu-bar-item">
+					<div class="menu-bar-items">	<span class="menu-bar-item">
 		<a href="#" role="button" aria-label="Open search" data-gpmodal-trigger="gp-search"><span class="gp-icon icon-search"><svg viewbox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path fill-rule="evenodd" clip-rule="evenodd" d="M208 48c-88.366 0-160 71.634-160 160s71.634 160 160 160 160-71.634 160-160S296.366 48 208 48zM0 208C0 93.125 93.125 0 208 0s208 93.125 208 208c0 48.741-16.765 93.566-44.843 129.024l133.826 134.018c9.366 9.379 9.355 24.575-.025 33.941-9.379 9.366-24.575 9.355-33.941-.025L337.238 370.987C301.747 399.167 256.839 416 208 416 93.125 416 0 322.875 0 208z"></path></svg><svg viewbox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z"></path></svg></span></a>
 	</span>
 	</div>			</div>
@@ -273,7 +260,7 @@ border:0px solid #FFFF;
 			<div class="post-image">
 						
 						<a href="/linux-caddy-mariadb-php-wordpress/">
-							<img width="300" height="300" src="https://api.haproxy.tech/2023/06/oigmfktg.jpg?w=500" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Oig.mfktg" decoding="async" itemprop="image" fetchpriority="high" loading="eager">
+							<img width="300" height="300" src="https://api.haproxy.tech/2023/06/oigmfktg.jpg?w=500" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Oig.mfktg" decoding="async" itemprop="image" loading="eager">
 						</a>
 					</div>
 			<div class="entry-summary" itemprop="text">
@@ -349,7 +336,7 @@ border:0px solid #FFFF;
 
 	<div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
 	<div class="inside-right-sidebar">
-		<aside id="block-3" class="widget inner-padding widget_block"><div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"><div class="wp-block-group__inner-container">
+		<aside id="block-3" class="widget inner-padding widget_block"><div class="wp-block-group is-layout-flow"><div class="wp-block-group__inner-container">
 <h2 class="wp-block-heading">Recent Posts</h2>
 <ul class="wp-block-latest-posts__list wp-block-latest-posts">
 <li><a class="wp-block-latest-posts__post-title" href="/hsts-cho-haproxy-tech/">HSTS cho haproxy.tech</a></li>
@@ -426,6 +413,6 @@ var ssp_search = {"html":"            <div class=\"ssp-search\">\n              
 <script src="/wp-content/plugins/wp-featherlight/js/wpFeatherlight.pkgd.min.js?ver=1.3.4" id="wp-featherlight-js"></script>
 <script async data-no-optimize="1" src="/wp-content/plugins/perfmatters/vendor/instant-page/instantpage.js?ver=2.1.7" id="perfmatters-instant-page-js"></script>
 
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"819c09090e8367a5","version":"2023.10.0","r":1,"token":"7132c820a0b14193bd75273ec253595c","b":1}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"819c119e583824fc","version":"2023.10.0","r":1,"token":"7132c820a0b14193bd75273ec253595c","b":1}' crossorigin="anonymous"></script>
 </body>
 </html>
