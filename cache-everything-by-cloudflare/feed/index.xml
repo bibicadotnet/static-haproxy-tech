@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Cache Everything by Cloudflare	</title>
-	<atom:link href="/cache-everything-by-cloudflare/feed/" rel="self" type="application/rss+xml" />
-	<link>/cache-everything-by-cloudflare/</link>
+	<atom:link href="https://static.haproxy.tech/cache-everything-by-cloudflare/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.haproxy.tech/cache-everything-by-cloudflare/</link>
 	<description></description>
 	<lastBuildDate>Sat, 24 Jun 2023 03:11:16 +0000</lastBuildDate>
 	<sy:updatePeriod>

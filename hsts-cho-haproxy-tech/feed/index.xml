@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: HSTS cho haproxy.tech	</title>
-	<atom:link href="/hsts-cho-haproxy-tech/feed/" rel="self" type="application/rss+xml" />
-	<link>/hsts-cho-haproxy-tech/</link>
+	<atom:link href="https://static.haproxy.tech/hsts-cho-haproxy-tech/feed/" rel="self" type="application/rss+xml" />
+	<link>https://static.haproxy.tech/hsts-cho-haproxy-tech/</link>
 	<description></description>
 	<lastBuildDate>Thu, 07 Sep 2023 04:19:38 +0000</lastBuildDate>
 	<sy:updatePeriod>
